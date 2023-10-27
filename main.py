@@ -11,7 +11,7 @@ start_time = time.time()
 def thread1():
     global result
     while True:
-        result = subprocess.run(["python", "webcam.py", "1", "2", "3", "1"], capture_output=True, text=True)
+        result = subprocess.run(["python", "webcam.py", "10", "30", "100", "1"], capture_output=True, text=True)
 
 def thread2():
 
